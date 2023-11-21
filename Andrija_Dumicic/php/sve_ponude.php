@@ -50,7 +50,7 @@
                 echo "<td>".$row['naziv_uredjaja']."</td>";
                 echo "<td>".$row['proizvodjac']."</td>";
                 echo "<td>".$row['opis']."</td>";
-                echo "<td><img src='".$row['slika']."' width='100px' alt='".$row['naziv']."'></td>";
+                echo "<td><img src='".$row['slika']."' width='100px' alt='".$row['naziv_uredjaja']."'></td>";
                 echo "<td>".$row['cijena']."</td>";
                 echo "</tr>";
             }
