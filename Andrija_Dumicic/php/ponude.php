@@ -8,7 +8,7 @@
     $query = "SELECT * FROM mobiteli";
     $res = mysqli_query($conn, $query);
     while($row = mysqli_fetch_array($res)){
-        echo $row['naziv'];
+        echo $row['naziv_uredjaja'];
     }
     mysqli_close($conn);
 ?>
